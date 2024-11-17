@@ -1,0 +1,89 @@
+.biolink-main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.biolink {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bio-heading {
+    font-size: 28px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 450px;
+}
+
+.biochat-input {
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #f8f9fa;
+    padding: 4px;
+}
+
+.bio-input-field {
+    flex: 1;
+    padding: 12px 16px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.bio-input-field::placeholder {
+    color: #6c757d;
+}
+
+.bio-send-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #6c89ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+}
+
+.bio-send-button:hover {
+    background-color: #5674ff;
+}
+
+.biolink-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.biolink-footer a {
+    color: #6c89ff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .biolink {
+        padding: 10px;
+    }
+    
+    .bio-heading {
+        font-size: 24px;
+        margin-bottom: 300px;
+    }
+}

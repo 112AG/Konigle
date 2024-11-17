@@ -1,0 +1,73 @@
+.shopify-main {
+    width: 100%;
+}
+
+.shopify-heading {
+    font-size: 54px;
+    padding: 54px 0;
+}
+
+.shopify-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 58px 28px;
+    padding: 44px 0px;
+}
+
+.shopify-card {
+    width: 380px;
+    min-width: 230px;
+    height: 250px;
+    background-image: url('../../assets/helpFeatureImage.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: 1 1 300px;
+    padding: 18px 14px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.shopify-card:hover {
+    transform: scale(1.03);
+}
+
+.shopify-feature-cards {
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.shopify-feature-card-blue {
+    color: rgba(0, 0, 255, 0.82);
+}
+
+.shopify-feature-card {
+    font-size: 34px;
+    text-align: left;
+}
+
+.shopify-feature-card-para {
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .help-feature-card-para {
+        text-align: center;
+    }
+
+    .feature-card {
+        margin: 10px auto;
+    }
+    .shopify-heading {
+        padding: 0;
+    }
+}

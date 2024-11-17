@@ -1,0 +1,121 @@
+.thirdheader-container {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .thirdheader-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+  }
+  
+  .thirdheader-linkOne {
+    color: #1a56db;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .thirdheader-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .thirdheader-allLinks {
+    color: #1a56db;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .thirdheader-allLinks:hover {
+    color: #1e40af;
+  }
+  
+  .thirdheader-cta-button {
+    background-color: #f97316;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .thirdheader-cta-button:hover {
+    background-color: #ea580c;
+  }
+/*   
+  .thirdheader-content-section {
+    padding: 1.5rem 2rem;
+    position: relative;
+  }
+  
+  .thirdheader-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+  }
+  
+  .thirdheader-breadcrumb-link {
+    color: #4b5563;
+    text-decoration: none;
+  }
+  
+  .thirdheader-breadcrumb-link:hover {
+    color: #1f2937;
+  }
+  
+  .thirdheader-page-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+  }
+  
+  .thirdheader-date {
+    color: #4b5563;
+  }
+  
+  .thirdheader-newsletter-box {
+    position: fixed;
+    right: 2rem;
+    top: 33%;
+    max-width: 320px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .thirdheader-newsletter-h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+  
+  .thirdheader-newsletter-p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .thirdheader-subscribe-button {
+    width: 100%;
+    background-color: #f97316;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #ea580c;
+  } */
+  
+  /* Responsive Design */
+  

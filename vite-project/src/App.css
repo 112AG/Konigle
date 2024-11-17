@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.def-button-white {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.def-button:hover {
+    cursor: pointer;
+    border-color: #888;
+}
+    
+.def-button-blue {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1c4adb;
+    background-color: #1c4adb;
+    cursor: pointer;
+    color: white;
+}
+
+.page-pad {
+    padding: 16px 24px;
+}
+.top-padding {
+    padding-top: 84px;
+}
+.page-padding {
+    padding: 84px 24px 16px 24px;
+}
+
+.forget-recaptcha {
+    margin: 12px 0;
+}
+
+.fon-helv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fon-gil {
+    font-family: Gilroy;
+}
+
+.horizontal-line {
+    margin: 14px 0;
+}
+
+.blue-text {
+    color: #1c4adb;
+}

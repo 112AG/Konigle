@@ -1,0 +1,240 @@
+.allfeatures {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    position: relative;
+}
+
+.allfeatures-one {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 60px;
+}
+
+.allfeatures-link {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.allfeatures-link:hover {
+    color: rgb(24, 64, 206);
+}
+
+.features-allLinks {
+    flex-direction: column;
+    gap: 21px;
+    position: absolute;
+    display: none;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.691),rgba(0, 0, 0, 0.067), rgba(255, 255, 255, 0.022));
+    top:7%;
+    min-width: 100%;
+    padding: 14px -11px;
+}
+
+
+
+.main-links-features {
+    color: black;
+    text-decoration: none;
+}
+
+.main-links-features:hover {
+    color: blue;
+}
+
+.allfeatures-two {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.allfeatures-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    margin: 0 0 16px 0;
+}
+
+.allfeatures-date {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    margin: 0;
+}
+
+.allfeatures-linksdata {
+    padding: 54px 0px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; 
+}
+
+.features-headingTwo {
+    font-size: 38px;
+}
+.features-paraTwo {
+    padding-bottom: 32px;
+}
+
+.features-listImg {
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.features-listImg img{
+    height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.allfeatures-three {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    position: absolute;
+    top: 6%;
+    left: 80%;
+    margin-bottom: 8px;
+    
+}
+
+.allfeatures-card-paraOne {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.allfeatures-card-paraTwo {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.allfeatures-btn {
+    background-color: rgb(255, 107, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.allfeatures-btn:hover {
+    background-color: rgb(230, 96, 0);
+}
+
+.toggleIcon {
+    position: absolute;
+    top: 6%;
+    transform: scale(1.5);
+    font-size: 18px;
+}
+
+.features-allLinks.active {
+    display: flex; /* Show when active */
+}
+
+.menu {
+    display: block; /* Show menu icon by default */
+}
+
+.close {
+    display: none; /* Hide close icon by default */
+}
+
+.nav-active .menu {
+    display: none; /* Hide menu icon when nav is active */
+}
+
+.nav-active .close {
+    display: block; /* Show close icon when nav is active */
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.nav-active .features-allLinks  {
+    display: flex; /* Show the menu when nav is active */
+}
+
+
+
+@media (max-width: 1024px) {
+    .allfeatures {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .allfeatures-three {
+        margin-left: 0;
+        position: initial;
+    }
+    
+    .allfeatures-two {
+        margin-bottom: 18px;
+    }
+    .features-listImg {
+        max-width: 700px;
+        height: 400px;
+    }
+
+    .features-allLinks{
+        background-color: #fff;
+        height: 100%;
+        width: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .allfeatures {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 12px 18px;
+    }
+
+    .allfeatures-heading {
+        font-size: 36px;
+    }
+    
+    .allfeatures-two {
+        margin-bottom: 100px;
+    }
+
+    .features-listImg {
+        max-width: 450px;
+        height: 250px;
+    }
+
+    .allfeatures-card-para:first-of-type {
+        font-size: 20px;
+    }
+
+    .allfeatures-three {
+        position: initial;
+        width: 100%;
+    }
+    
+    .allfeatures-two {
+        margin-bottom: 80px;
+    }
+
+   
+}

@@ -1,0 +1,66 @@
+.integration-main {
+    padding: 12px 18px;
+    padding-top: 84px;
+}
+
+.integration-heading {
+    color: rgb(245, 135, 0);
+    font-size: 38px;
+}
+
+.inegration-para {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.706);
+    padding: 12px 0;
+}
+
+.integration-allCards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0;
+}
+
+.integration-card {
+    height: 200px;
+    width: 380px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.294);
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    padding: 24px 0;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.integration-entry-head {
+    font-size: 18px;
+    padding: 0 18px;
+}
+
+.integration-entry-para {
+    font-size: 12px;
+    color: rgb(69, 69, 69);
+    padding: 0 18px;
+}
+
+.integration-entry-link {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    font-size: 14px;
+    padding: 0 18px;
+    
+}
+
+.integration-color {
+    position: absolute;
+    bottom: 0%;
+    height: 6px;
+    width: 100%;
+    background-image: linear-gradient(to left, green, blue, orange);
+}

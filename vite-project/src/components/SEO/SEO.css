@@ -1,0 +1,128 @@
+.seo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    position: relative;
+}
+
+.seo-one {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 60px;
+}
+
+.seo-link {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.seo-link:hover {
+    color: rgb(24, 64, 206);
+}
+
+.seo-two {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.seo-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    margin: 0 0 16px 0;
+}
+
+.seo-date {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    margin: 0;
+}
+
+.seo-three {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    position: relative;
+    left: 80%;
+}
+
+.seo-card-paraOne {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.seo-card-paraTwo {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.seo-btn {
+    background-color: rgb(255, 107, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.seo-btn:hover {
+    background-color: rgb(230, 96, 0);
+}
+
+@media (max-width: 1024px) {
+    .seo {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seo-three {
+        margin-left: 0;
+        position: initial;
+    }
+    
+    .seo-two {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .seo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seo-heading {
+        font-size: 36px;
+    }
+    
+    .seo-two {
+        margin-bottom: 100px;
+    }
+
+    .seo-card-para:first-of-type {
+        font-size: 20px;
+    }
+
+    .seo-three {
+        position: initial;
+    }
+    
+    .seo-two {
+        margin-bottom: 80px;
+    }
+}

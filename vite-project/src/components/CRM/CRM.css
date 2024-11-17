@@ -1,0 +1,128 @@
+.crm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    position: relative;
+}
+
+.crm-one {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 60px;
+}
+
+.crm-link {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.crm-link:hover {
+    color: rgb(24, 64, 206);
+}
+
+.crm-two {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.crm-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    margin: 0 0 16px 0;
+}
+
+.crm-date {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    margin: 0;
+}
+
+.crm-three {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    position: relative;
+    left: 80%;
+}
+
+.crm-card-paraOne {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.crm-card-paraTwo {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.crm-btn {
+    background-color: rgb(255, 107, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.crm-btn:hover {
+    background-color: rgb(230, 96, 0);
+}
+
+@media (max-width: 1024px) {
+    .crm {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .crm-three {
+        margin-left: 0;
+        position: initial;
+    }
+    
+    .crm-two {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .crm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .crm-heading {
+        font-size: 36px;
+    }
+    
+    .crm-two {
+        margin-bottom: 100px;
+    }
+
+    .crm-card-para:first-of-type {
+        font-size: 20px;
+    }
+
+    .crm-three {
+        position: initial;
+    }
+    
+    .crm-two {
+        margin-bottom: 80px;
+    }
+}

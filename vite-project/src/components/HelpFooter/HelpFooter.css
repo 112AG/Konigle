@@ -1,0 +1,123 @@
+.helpFooter {
+    background-color: #1D4ADB;
+    padding: 2rem 0;
+    color: white;
+    width: 100%;
+  }
+  
+  .helpFooter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .helpFooter-top {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .helpFooter-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .helpFooter-para {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .helpFooter-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .helpFooter-link-group {
+    list-style: none;
+    padding: 0;
+    min-width: 150px;
+  }
+  
+  .helpFooter-link-group li {
+    margin-bottom: 1rem;
+  }
+  
+  .helpFooter-navlink-group {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+  }
+  
+  .helpFooter-link-group a:hover {
+    color: #b3b3b3;
+  }
+  
+  .helpFooter-bottom {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+  }
+  
+  .helpFooter-bottom p {
+    margin: 0.5rem 0;
+  }
+  
+  .helpFooter-bottom a {
+    text-decoration: none;
+  }
+  
+  .helpFooter-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .helpFooter {
+      padding: 3rem 0;
+    }
+  
+    .helpFooter-container {
+      padding: 0 1.5rem;
+    }
+  
+    .helpFooter-heading {
+      font-size: 1.75rem;
+    }
+  
+    .helpFooter-links-container {
+      gap: 2rem;
+      justify-content: space-evenly;
+    }
+  
+    .helpFooter-link-group {
+      min-width: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .helpFooter {
+      padding: 2rem 0;
+    }
+  
+    .helpFooter-container {
+      padding: 0 1rem;
+    }
+  
+    .helpFooter-heading {
+      font-size: 1.5rem;
+    }
+  
+    .helpFooter-links-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  
+    .helpFooter-link-group {
+      text-align: center;
+      width: 100%;
+    }
+  }

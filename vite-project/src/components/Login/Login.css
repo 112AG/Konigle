@@ -1,0 +1,79 @@
+.login-div{
+    padding-top: 90px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.login-inner-div {
+    height: 80px;
+    width: 80px;
+    background-color: grey;
+}
+
+.login-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.login-div-head {
+    margin-top: 22px;
+    color: rgb(34, 34, 34);
+}
+
+.login-div-para {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.home-links{
+    text-decoration: none;
+    color: blue;
+}
+
+.login-form {
+    width: 450px;
+    background-color: #fafafadb;
+    padding: 30px;
+    margin: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.login-label{ 
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.login-inputfiled {
+    flex-grow: 1;
+    background-color: #f6f6f6;
+    padding: 12px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.549);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.078);
+    border-radius: 5px;
+    padding-right: 45px; /* make space for the button */
+    font-size: 14px;
+    position: relative;
+}
+
+.login-btn {
+    margin-top: 12px;
+    width: 70px;
+    text-align: center;
+}
+
+.login-forget-button {
+    text-decoration: none;
+    color: blue;
+    padding-top: 10px;
+    font-weight: normal;
+}
