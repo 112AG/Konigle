@@ -1,6 +1,6 @@
 import React from 'react'
 import './Store.css'
-import Konigle from '../../assets/Konigle.png'
+import Konigle from '../../assets/konigle.png'
 import { Link } from 'react-router-dom'
 
 function Store() {
