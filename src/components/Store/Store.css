@@ -1,0 +1,180 @@
+.store-head {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.store-head>nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 22px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.534);
+    transition: 0.2s ease;
+}
+
+.store-head>nav:hover {
+    box-shadow: 10px 0 8px rgba(0, 0, 0, 0.534);
+}
+
+.store-navs {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.storeImg {
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+}
+
+.storeImg>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.store-navs>a {
+    text-decoration: none;
+    color: rgb(48, 48, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease;
+}
+
+.store-navs>a:hover {
+    transform: scale(1.2);
+    color: rgb(101, 101, 212);
+}
+
+/*  */
+
+main {
+    width: 100%;
+    padding: 86px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.store-Pcard {
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: 0.3s ease;    
+}
+
+.store-Pcard:hover {
+    box-shadow: 0px 0px 14px black;
+}
+.store-Pcard:hover .storecard-Image {
+    transform: scale(1.1);
+}
+
+
+.store-card {
+    height: 85%;
+}
+
+.store-img {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.store-Pcard:hover .store-img>div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff5a;
+}
+
+.storecard-Image {
+    height: 100%;
+    width: 100%;
+    background-position: center;   
+    background-size: cover;
+    transition: 0.2s ease-in;
+}
+
+.store-btn {
+ padding: 12px;
+ background-color: rgb(0, 0, 255);
+ color: rgb(255, 255, 255);
+ border-radius: 4px;
+ border: none;
+}
+
+.store-btn:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+.store-bluebox {
+    margin-top: 32px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(88, 88, 255), #cad0ff, rgb(254, 254, 254));
+    border-radius: 8px;
+}
+
+.store-bluebox>h1 {
+    color: #fff;
+    padding-top: 32px;
+    line-height: 1.5;
+}
+
+.store-bluebox>p {
+    color: #5f5f5f;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.store-bluebox>button {
+    color: #fff;
+    background-color: rgb(45, 86, 249);
+    border: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    margin: 18px 0;
+}
+
+.store-footer {
+    width: 100%;
+    margin-top: 34px;
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-linkContent {
+    width: 70%;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 12px 68px;
+}
+
+.footer-linkContent>div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 18px 0;
+}
+
+.footer-linkContent>div>a {
+    text-decoration: none;
+    color: black;
+}

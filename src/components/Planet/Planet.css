@@ -1,0 +1,46 @@
+.planet {
+    height: 100%;
+    width: 100%;
+    background-color: #DCFCE7;
+    padding: 54px;
+}
+
+.planet>h1 {
+    line-height: 1.8;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.planet-paraHead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(33, 33, 255);
+}
+
+.planet-paragraph {
+    line-height: 1.4;
+    padding: 24px 0;
+}
+
+.planet-paragraph>a {
+    color: rgb(29, 29, 255);
+}
+
+.planet>div {
+    line-height: 1.4;
+    padding-bottom: 18px;
+}
+
+.planet>h4{
+    padding: 16px 0;
+}
+
+.planet>button {
+    padding: 14px 28px;
+    margin-top: 24px;
+    background-color: rgb(59, 59, 255);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 4px;
+}

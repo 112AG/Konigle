@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css' 
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -21,7 +21,6 @@ function Footer() {
             <NavLink to="/whykonigle" className="footer-product-links">Why Konigle?</NavLink>
             <NavLink to="/app" className="footer-product-links">Integrations</NavLink>
             <NavLink to="/customers" className="footer-product-links">Testimonials</NavLink>
-            <NavLink className="footer-product-links">Status</NavLink>
           </div>
           <div className="footer-links">
             <h5 className='footer-links-heading'>FEATURES</h5>
@@ -35,26 +34,19 @@ function Footer() {
             <NavLink to="/website/seo" className="footer-features-links">Website SEO</NavLink>
             <NavLink to="/features/crm" className="footer-features-links">CRM</NavLink>          
             <NavLink to="/features/ai-tools" className="footer-features-links">AI Tools</NavLink>
-            <NavLink to="/seller-tools" className="footer-features-links">Seller Tools</NavLink>
-            <NavLink to="/features/all" className="footer-features-links">All Features</NavLink>
+            
           </div>
        
         <div className="footer-links">
         <h5 className='footer-links-heading'>RESOURCES</h5>
         <NavLink to="website/builder/demo" className="footer-resources-links">Demo</NavLink>
         <NavLink to="/blog" className="footer-resources-links">Blog</NavLink>
-        <NavLink className="footer-resources-links">Ecommerce Blog</NavLink>
-        <NavLink className="footer-resources-links">Community</NavLink>
-        <NavLink className="footer-resources-links">Newsletter</NavLink>
-        <NavLink className="footer-resources-links">Website glossary</NavLink>
-        <NavLink className="footer-resources-links">Course</NavLink>
-        <NavLink className="footer-resources-links">Podcasts</NavLink>
-        <NavLink className="footer-resources-links">Sellingnomics</NavLink>
-        <NavLink className="footer-resources-links">Alternatives</NavLink>
-        <NavLink className="footer-resources-links">Tech Blog</NavLink>
+        <NavLink to="/commerce" className="footer-resources-links">Ecommerce Blog</NavLink>
         <NavLink className="footer-resources-links">Web development companies</NavLink>
-        <NavLink className="footer-resources-links">SEO Agencies</NavLink>
-        <NavLink className="footer-resources-links">Login pages</NavLink>
+        <NavLink to="/website/seo" className="footer-resources-links">SEO Agencies</NavLink>
+        <NavLink to="/login" className="footer-resources-links">Login pages</NavLink>
+        <NavLink to="/seller-tools" className="footer-features-links">Seller Tools</NavLink>
+        <NavLink to="/features/all" className="footer-features-links">All Features</NavLink>
         </div>
         <div className="footer-links">
         <h5 className='footer-links-heading'>COMPANY</h5>
@@ -62,11 +54,11 @@ function Footer() {
         <NavLink to="company/konigle" className="footer-company-links">Jobs</NavLink>
         <NavLink to="/press" className="footer-company-links">Press</NavLink>
         <NavLink to="/contact" className="footer-company-links">Contact</NavLink>
-        <NavLink className="footer-company-links">Events</NavLink>
-        <NavLink className="footer-company-links">The Konigle Store</NavLink>
-        <NavLink className="footer-company-links">Terms</NavLink>
-        <NavLink className="footer-company-links">Imprint</NavLink>
-        <NavLink className="footer-company-links">Planet</NavLink>
+        <NavLink to="/events" className="footer-company-links">Events</NavLink>
+        <NavLink to="/store" className="footer-company-links">The Konigle Store</NavLink>
+        <NavLink to="/termservices" className="footer-company-links">Terms</NavLink>
+        <NavLink to="/imprint" className="footer-company-links">Imprint</NavLink>
+        <NavLink to="/planet" className="footer-company-links">Planet</NavLink>
       </div>
     </div>
     <div className="footer-third">

@@ -24,7 +24,6 @@ import Integration from './components/Inegration/Integration.jsx'
 import Testimonials from './components/Testimonials/Testimonials.jsx'
 import New from './components/New/New.jsx'
 import BioLink from './components/BioLink/BioLink.jsx'
-import EComWeb from './components/eComWeb/eComWeb.jsx'
 import Blog from './components/Blogs/Blog.jsx'
 import FunnelBuild from './components/FunnelBuild/FunnelBuild.jsx'
 import HelpDesk from './components/HelpDesk/HelpDesk.jsx'
@@ -38,6 +37,11 @@ import About from './components/About/About.jsx'
 import Job from './components/Job/Job.jsx'
 import Press from './components/Press/Press.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Event from './components/Event/Event.jsx'
+import Store from './components/Store/Store.jsx'
+import Imprint from './components/Imprint/Imprint.jsx'
+import Planet from './components/Planet/Planet.jsx'
+import Ecommerce from './components/EComWeb/EComWeb.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -172,7 +176,24 @@ const router = createBrowserRouter ([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/events",
+        element: <Event />
+      },
+      {
+        path: '/imprint',
+        element: <Imprint />
+      }, 
+      {
+        path: "/planet",
+        element: <Planet/>
+      },
+      {
+        path: "/commerce",
+        element: <Ecommerce />
       }
+
     ]
   },
   {
@@ -190,7 +211,12 @@ const router = createBrowserRouter ([
   {
     path: "company/konigle",
     element: <Job />
+  },
+  {
+    path: "/store",
+    element: <Store />
   }
+  
 ])
 
 
