@@ -112,7 +112,7 @@ function Testimonials() {
         <div className='testimonial-AllCards'>
         {
             customers.map((entry, index) => (
-                <div key={index} className="customer-feedback">
+                <div key={index} className="customer-feedback w-full">
                     <p className='customer-entry-feedback'>{entry.feedback}</p>
                     <h6 className='customer-entry-name'>{entry.name}</h6>
                 </div>

@@ -4,10 +4,7 @@
     box-sizing: border-box;
     font-family: Gilroy;
 }
-html, body {
-    height: 100%;
-    width: 100%;
-}
+
 
 .def-button-white {
     text-decoration: none;

@@ -1,7 +1,8 @@
 .testimonials-main {
     padding: 12px 18px;
     padding-top: 84px;
-    width: 100%;
+    width: 100vw;
+    height: 100%;
     background-color: rgb(246, 246, 252);
 }
 
@@ -18,17 +19,17 @@
 
 .testimonial-AllCards {
     width: 100%;
+    column-count: 3; /* Number of columns */
+    column-gap: 14px; /* Space between columns */
     padding: 32px 18px;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 14px;
 }
 
 .customer-feedback {
+    width: 100%;
     max-width: 280px;
+    break-inside: avoid; /* Ensures that the items don't break across columns */
 }
+
 
 .customer-entry-feedback{
     font-size: 11px;   
