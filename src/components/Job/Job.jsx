@@ -1,7 +1,7 @@
 import React from 'react'
 import './Job.css'
 import { Link } from 'react-router-dom'
-import Konigle from '../../assets/Konigle.png'
+import Konigle from '../../assets/konigle.png'
 
 function Job() {
   return (
