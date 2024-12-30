@@ -42,6 +42,7 @@ import Store from './components/Store/Store.jsx'
 import Imprint from './components/Imprint/Imprint.jsx'
 import Planet from './components/Planet/Planet.jsx'
 import Ecommerce from './components/EComWeb/EComWeb.jsx'
+import EComWeb from './components/EComWeb/EComWeb.jsx'
 
 const router = createBrowserRouter ([
   {
